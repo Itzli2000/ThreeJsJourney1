@@ -12,7 +12,7 @@ const camera = new THREE.PerspectiveCamera(
   75,
   window.innerWidth / window.innerHeight
 );
-camera.position.set(0, 0, 2);
+camera.position.set(0, 0, 3);
 scene.add(camera);
 
 const canvas = document.querySelector("canvas.webgl");
